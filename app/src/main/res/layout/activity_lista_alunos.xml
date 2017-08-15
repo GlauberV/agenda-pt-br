@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.glauber.agenda.ListaAlunosActivity">
+
+    <ListView
+        android:id="@+id/lista_de_alunos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/lista_de_alunos_btn_novo_aluno"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:text="+"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/fundo"
+        android:elevation="6dp"
+        android:stateListAnimator="@null"/>
+
+</RelativeLayout>
