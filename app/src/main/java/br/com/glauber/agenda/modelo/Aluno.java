@@ -7,7 +7,7 @@ import java.io.Serializable;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Aluno implements Serializable{
 
-//    @JsonProperty("idCliente") Foi usado como uma artemanha do professor Alex Filipe para percebermos a importância de se melhorar nosso id.
+//  @JsonProperty("idCliente") Foi usado como uma artemanha do professor Alex Filipe para percebermos a importância de se melhorar nosso id.
     private String id;
 
     private String nome;
